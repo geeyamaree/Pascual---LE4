@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Posts] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[spPosts_Details] (Procedure)
+       [dbo].[spPosts_Insert] (Procedure)
+       [dbo].[spPosts_List] (Procedure)
+
+If this deployment is executed, changes to [dbo].[Posts] might introduce run-time errors in [dbo].[spPosts_Detail].
+
